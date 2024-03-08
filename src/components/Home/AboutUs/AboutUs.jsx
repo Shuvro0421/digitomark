@@ -112,7 +112,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 {/* drawer */}
-                <div className="drawer drawer-end z-[999]">
+                <div className="drawer drawer-end z-[99999999999999]">
                     <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
                     <div className="drawer-side">
                         <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
