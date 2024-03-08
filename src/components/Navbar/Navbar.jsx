@@ -102,7 +102,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="">
+        <div className="px-10">
             <div className="lg:flex items-start hidden justify-between m-10">
                 <div className="flex gap-5">
                     <Link to={'/'} className="bg-[#2626267A] w-24 rounded-lg backdrop-blur-lg h-12">
