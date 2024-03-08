@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "imageLink": "https://dm-weteam.vercel.app/images/dynamic/news1.jpg",
+        "title": "The Future of Software Development in Bangladesh",
+        "date": "May 24, 2023",
+        "title1": "Digital Marketing"
+    },
+    {
+        "id": 1,
+        "imageLink": "https://dm-weteam.vercel.app/images/dynamic/news1.jpg",
+        "title": "The Future of Software Development in Bangladesh",
+        "date": "May 24, 2023",
+        "title1": "Digital Marketing"
+    },
+    {
+        "id": 2,
+        "imageLink": "https://dm-weteam.vercel.app/images/dynamic/news1.jpg",
+        "title": "The Future of Software Development in Bangladesh",
+        "date": "May 24, 2023",
+        "title1": "Digital Marketing"
+    }
+]

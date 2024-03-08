@@ -11,9 +11,8 @@ const Navbar = () => {
 
     const routes = [
         { path: '/', name: 'Home' },
-        { path: '/about', name: 'About Us' },
-        { path: '/portfolios', name: 'Portfolios' },
-        // Add more routes as needed
+        { path: '/about', name: 'About' },
+        { path: '/portfolios', name: 'Portfolios' }
     ];
 
     // const handleOpenSubMenu = (text) => {
@@ -32,7 +31,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className=" w-full">
-                        <Link className="flex items-center gap-2 group" to={'/'}>
+                        <Link className="flex items-center gap-2 group" to={'/about'}>
                             About Us <GoArrowRight className="opacity-0 text-sm group-hover:opacity-100 transition-opacity duration-200" />
                         </Link>
                     </li>
@@ -102,7 +101,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="px-10">
+        <div className="lg:px-24 px-10 ">
             <div className="lg:flex items-start hidden justify-between m-10">
                 <div className="flex gap-5">
                     <Link to={'/'} className="bg-[#2626267A] w-24 rounded-lg backdrop-blur-lg h-12">

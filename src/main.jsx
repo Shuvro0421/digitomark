@@ -6,7 +6,10 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Main from './components/Main/Main.jsx';
-import Home from './components/Home/Home';
+import AboutUs from './components/Home/AboutUs/AboutUs';
+import Body from './components/Home/Body/Body';
+import SinglePerson from './components/Home/AboutUs/SinglePerson';
+
 
 
 
@@ -17,14 +20,23 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>
-      }
+        element: <Body />
+      },
+      {
+        path: "/about",
+        element: <AboutUs />
+      },
+      {
+        path: "/singlePerson/:id",
+        element: <SinglePerson />,
+        loader: () => fetch('/teams.json')
+      },
     ]
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <div className='bg-[#0A0E12] h-full w-full m-auto  text-white font-semibold'>
+  <div className='bg-[#0A0E12] h-full w-full m-auto  text-white '>
     <React.StrictMode>
       <RouterProvider router={router} />
     </React.StrictMode>
