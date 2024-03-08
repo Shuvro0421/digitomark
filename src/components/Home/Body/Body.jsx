@@ -29,7 +29,7 @@ const Body = () => {
             {/* video */}
             <div className='mt-32'>
                 <video id="video-field" autoplay loop muted controls>
-                    <source src="../../../../public/video/Digitomark - Agency Intro.mp4" type="video/mp4" />
+                    <source src="../../../../public/video/vdo.mp4" type="video/mp4" />
                 </video>
             </div>
 
