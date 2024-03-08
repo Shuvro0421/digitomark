@@ -28,9 +28,16 @@ const Body = () => {
             </div>
             {/* video */}
             <div className='mt-32'>
-                <video id="video-field" autoplay loop muted controls>
-                    <source src="./vdo.mp4" type="video/mp4" />
-                </video>
+                <div style={{ position: 'relative', width: '100%', height: '0px', paddingBottom: '56.250%' }}>
+                    <iframe
+                        allow="fullscreen;autoplay"
+                        allowFullScreen
+                        height="100%"
+                        src="https://staging.streamable.com/e/l4ov1f?autoplay=1&muted=1&nocontrols=1"
+                        width="100%"
+                        style={{ border: 'none', width: '100%', height: '100%', position: 'absolute', left: '0px', top: '0px', overflow: 'hidden' }}
+                    ></iframe>
+                </div>
             </div>
 
 
