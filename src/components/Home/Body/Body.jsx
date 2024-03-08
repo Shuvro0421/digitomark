@@ -18,7 +18,7 @@ const Body = () => {
                 </div>
             </div>
             {/* transaction */}
-            <div className='mt-10 px-10 flex items-center justify-between flex-wrap gap-5'>
+            <div className='mt-20 px-10 flex items-center justify-between flex-wrap gap-5'>
                 <img src="https://dm-weteam.vercel.app/images/dynamic/logo1.png" alt="" />
                 <img src="https://dm-weteam.vercel.app/images/dynamic/logo4.png" alt="" />
                 <img src="https://dm-weteam.vercel.app/images/dynamic/logo3.png" alt="" />
@@ -29,7 +29,7 @@ const Body = () => {
             {/* video */}
             <div className='mt-32'>
                 <video id="video-field" autoplay loop muted controls>
-                    <source src="../../../../public/video/vdo.mp4" type="video/mp4" />
+                    <source src="./vdo.mp4" type="video/mp4" />
                 </video>
             </div>
 
