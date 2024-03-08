@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "imageLink": "https://dm-weteam.vercel.app/images/dynamic/service1.jpg",
+    "title": "Bangladesh Institute of Planners",
+    "points": ["Social Media Marketing", "Motion Design"]
+  },
+  {
+    "id": 2,
+    "imageLink": "https://dm-weteam.vercel.app/images/dynamic/service2.jpg",
+    "title": "Concord Real Estate",
+    "points": ["Motion Design"]
+  },
+  {
+    "id": 3,
+    "imageLink": "https://dm-weteam.vercel.app/images/dynamic/service3.jpg",
+    "title": "Edison Real Estate",
+    "points": ["SEO"]
+  },
+  {
+    "id": 4,
+    "imageLink": "https://dm-weteam.vercel.app/images/dynamic/service4.jpg",
+    "title": "MJL Bangladesh Limited",
+    "points": ["Website Design and Development", "PPC", "SEO"]
+  },
+  {
+    "id": 5,
+    "imageLink": "https://dm-weteam.vercel.app/images/dynamic/service5.jpg",
+    "title": "Shanta Lifestyle",
+    "points": ["PPC", "SEO"]
+  },
+  {
+    "id": 6,
+    "imageLink": "https://dm-weteam.vercel.app/images/dynamic/service6.jpg",
+    "title": "ReelStar",
+    "points": [
+      "Social Media Marketing",
+      "Motion",
+      "Website Design and Development"
+    ]
+  }
+
+]

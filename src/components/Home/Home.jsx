@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className="flex flex-col min-h-screen ">
             {/* navbar */}
-            <div className="fixed left-0 right-0 ">
+            <div className="fixed left-0 right-0 z-50">
                 <Navbar />
             </div>
             {/* body */}
