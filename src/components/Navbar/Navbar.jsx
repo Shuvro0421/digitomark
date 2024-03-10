@@ -12,7 +12,7 @@ const Navbar = () => {
     const routes = [
         { path: '/', name: 'Home' },
         { path: '/about', name: 'About' },
-        { path: '/portfolios', name: 'Portfolios' }
+        { path: '/portfolios', name: 'Portfolio' }
     ];
 
     // const handleOpenSubMenu = (text) => {
@@ -36,7 +36,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className=" w-full">
-                        <Link className="flex items-center gap-2 group" to={'/'}>
+                        <Link className="flex items-center gap-2 group" to={'/portfolios'}>
                             Portfolios <GoArrowRight className="opacity-0 text-sm group-hover:opacity-100 transition-opacity duration-200" />
                         </Link>
                     </li>

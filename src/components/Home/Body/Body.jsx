@@ -73,14 +73,15 @@ const Body = () => {
             <div className='mt-32'>
                 <div style={{ position: 'relative', width: '100%', height: '0px', paddingBottom: '56.250%' }}>
                     <iframe
-                        allow="fullscreen;autoplay"
+                        allow="autoplay; fullscreen"
                         allowFullScreen
                         height="100%"
-                        src="https://staging.streamable.com/e/l4ov1f?autoplay=1&muted=1&nocontrols=1"
+                        src="https://www.youtube.com/embed/oVChWwAhjSw?autoplay=1&loop=1&mute=1&controls=0"
                         width="100%"
                         style={{ border: 'none', width: '100%', height: '100%', position: 'absolute', left: '0px', top: '0px', overflow: 'hidden' }}
                     ></iframe>
                 </div>
+
             </div>
             {/* success clients */}
             <div className='mt-10 lg:px-24 px-10 '>

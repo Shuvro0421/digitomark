@@ -9,6 +9,7 @@ import Main from './components/Main/Main.jsx';
 import AboutUs from './components/Home/AboutUs/AboutUs';
 import Body from './components/Home/Body/Body';
 import SinglePerson from './components/Home/AboutUs/SinglePerson';
+import Portfolios from './components/Home/Portfolios/Portfolios';
 
 
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
         element: <SinglePerson />,
         loader: () => fetch('/teams.json')
       },
+      {
+        path: "/portfolios",
+        element: <Portfolios />
+      }
     ]
   },
 ]);
