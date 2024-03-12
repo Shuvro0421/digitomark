@@ -32,7 +32,7 @@ const SinglePortfolio = () => {
     return (
         <div>
             {/* flex */}
-            <div className="flex md:flex-row flex-col items-start justify-center w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10">
+            <div className="flex md:flex-row flex-col items-start justify-center w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10 gap-5">
                 {/* reel star */}
                 <div className="">
                     <h1 className='lg:text-6xl md:text-4xl text-2xl font-semibold'>Reel Star</h1>
@@ -99,7 +99,14 @@ const SinglePortfolio = () => {
                         </div>
                         <div className="my-10 w-full h-[1px] border border-gray-500"></div>
                         {/* comment */}
-                        <div>
+                        <div className="my-20 relative">
+                            <h1 className="text-3xl">I’ve been impressed by how well they’ve been able to manage the project.</h1>
+                            <h1 className="my-5">The Dcastalia Limited team over delivered on each sprint they embarked on with the company, who are quite pleased with the partnership. The team did everything to make sure that the project is always organized and on track.</h1>
+                            <div className="my-10">
+                                <h1>Shafiqul Huq Shajal</h1>
+                                <h1 className=" text-gray-500">Sr. Manager, Elite Paint & Chemical Industries Ltd.</h1>
+                            </div>
+                            <img className="opacity-20 absolute -top-2  -left-5" src="https://dm-weteam.vercel.app/images/static/quotes.svg" alt="" />
 
                         </div>
                     </div>
