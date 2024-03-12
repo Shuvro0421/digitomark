@@ -52,7 +52,7 @@ const AboutUs = () => {
     return (
         <div className="">
             {/* title and description */}
-            <div className='lg:px-24 px-10 '>
+            <div className=' w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10 '>
                 <h1 className='lg:text-7xl md:text-5xl text-3xl'>We are a full-service<br /> digital marketing agency</h1>
                 <h1 className="text-gray-500 md:w-3/4 my-10 lg:ml-96 md:ml-48">Digitomark is the brand new concern of Dcastalia Limited. Today Digital Marketing is one of the crucial tools to build trust for a business. This is because, today, the customers look for the best on search engines and rely on reviews from their friends and family on social media. A combination of design, good content, photos, and videos are the backbones that build that trust.</h1>
             </div>
@@ -72,7 +72,7 @@ const AboutUs = () => {
             {/* mission vision */}
             <div className="">
                 <div className=" bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://dm-weteam.vercel.app/images/static/mission-bg.jpg')" }}>
-                    <div className="lg:px-24 px-10  py-20 ">
+                    <div className=" w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10  py-20 ">
                         <div>
                             <h1 className="text-2xl font-thin md:w-2/3">
                                 Our main aim is to help businesses add value and trust on digital platforms with transparency and efficiency. As more people rely on search engine results and reviews on social media platforms to grow interested in a company, the online platform is becoming ultra-competitive for brands. <br /><br />
@@ -103,7 +103,7 @@ const AboutUs = () => {
             {/* apply today */}
             <div>
                 <div className=" bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://dm-weteam.vercel.app/images/dynamic/cta2.jpg')" }}>
-                    <div className="py-80 lg:px-24 px-10 ">
+                    <div className="py-80  w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10 ">
 
                         <h1 className='lg:text-7xl md:text-5xl text-3xl'>Join a team of passionate <br /> individuals</h1>
                         <button>
@@ -135,7 +135,7 @@ const AboutUs = () => {
             {/* values and culture */}
             <div>
                 <div className=" bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://dm-weteam.vercel.app/images/dynamic/values-bg.jpg')" }}>
-                    <div className="lg:px-24 px-10   py-40">
+                    <div className=" w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10   py-40">
                         <h1 className='lg:text-7xl md:text-5xl text-3xl'>Our values culture, guide, and<br /> define our commitment to <br />excellence.</h1>
 
                         <div>
@@ -171,7 +171,7 @@ const AboutUs = () => {
                 </div>
             </div>
             {/* teams */}
-            <div className="lg:px-24 px-10 mt-20">
+            <div className=" w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10 mt-20">
                 <div className="flex lg:items-center lg:flex-row flex-col items-start gap-5 justify-between">
                     <div>
                         <h1 className='lg:text-7xl md:text-5xl text-3xl'>A team of passionate <br /> individuals</h1>
@@ -263,7 +263,7 @@ const AboutUs = () => {
 
             </div>
             {/* working alongside */}
-            <div className="lg:px-24 px-10 my-20">
+            <div className=" w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10 my-20">
                 <h1 className='lg:text-7xl md:text-5xl text-3xl'>Working alongside</h1>
                 <div className="my-20">
                     <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2">

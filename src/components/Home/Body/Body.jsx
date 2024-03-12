@@ -48,11 +48,11 @@ const Body = () => {
     return (
         <div>
             {/* title */}
-            <div className='lg:px-24 px-10 '>
+            <div className=' w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10 '>
                 <h1 className='lg:text-7xl md:text-5xl text-3xl'>We’re obsessed <br /> withgrowth, your growthin <br /> particular</h1>
             </div>
             {/* details */}
-            <div className='mt-10 lg:px-24 px-10  flex lg:flex-row flex-col lg:items-center lg:justify-between w-full gap-10'>
+            <div className='mt-10  w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10  flex lg:flex-row flex-col lg:items-center lg:justify-between w-full gap-10'>
                 <div className='lg:w-1/2 w-full'>
                     <button className='rounded-full hover:bg-gray-500 hover:text-white ease-in-out duration-300 flex items-center gap-3 bg-white text-black py-3 px-5'>Start your digital journey <GoArrowRight /></button>
                 </div>
@@ -61,7 +61,7 @@ const Body = () => {
                 </div>
             </div>
             {/* transaction */}
-            <div className='mt-20 lg:px-24 px-10  flex items-center justify-between flex-wrap gap-5'>
+            <div className='mt-20  w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10  flex items-center justify-between flex-wrap gap-5'>
                 <img src="https://dm-weteam.vercel.app/images/dynamic/logo1.png" alt="" />
                 <img src="https://dm-weteam.vercel.app/images/dynamic/logo4.png" alt="" />
                 <img src="https://dm-weteam.vercel.app/images/dynamic/logo3.png" alt="" />
@@ -84,7 +84,7 @@ const Body = () => {
 
             </div>
             {/* success clients */}
-            <div className='mt-10 lg:px-24 px-10 '>
+            <div className='mt-10  w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10 '>
                 <div>
                     <h1 className='lg:text-7xl md:text-5xl text-3xl'>The Success <br /> <span className='md:ml-20 '>of Our Clients</span></h1>
                 </div>
@@ -92,8 +92,8 @@ const Body = () => {
                     {datas.map((singleData, index) => (
                         <div key={index} className={`${index % 2 === 0 ? 'md:mt-40' : ''}`}>
                             <div className='flex hover:scale-105 ease-in-out duration-300 cursor-pointer flex-col items-start lg:ml-20 justify-start space-y-2'>
-                                <div className='rounded-lg '>
-                                    <img className='lg:h-[550px]  lg:w-[500px] h-full w-full rounded-lg ' src={singleData?.imageLink} alt="" />
+                                <div className='rounded-xl '>
+                                    <img className='lg:h-[550px]  lg:w-[500px] h-full w-full rounded-xl ' src={singleData?.imageLink} alt="" />
                                 </div>
                                 <div className='flex items-start flex-col'>
                                     <div className='text-gray-500'>
@@ -116,7 +116,7 @@ const Body = () => {
 
             </div>
             {/* 360 solution growth */}
-            <div className='mt-10 lg:px-24 px-10 '>
+            <div className='mt-10  w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10 '>
                 <div>
                     <h1 className='lg:text-7xl md:text-5xl text-3xl'>We provide 360° solutions<br /> <span className=''>perfect for promoting growth</span></h1>
                 </div>
@@ -185,7 +185,7 @@ const Body = () => {
                     >
                         {slides.map((slide, index) => (
                             <div className=' flex flex-col m-10' key={index}>
-                                <img className='w-full rounded-lg' src={slide.imageLink} alt='' />
+                                <img className='w-full rounded-xl' src={slide.imageLink} alt='' />
                                 <h1 className='text-2xl'>{slide.title}</h1>
                                 <p>{slide.description}</p>
                             </div>
@@ -194,7 +194,7 @@ const Body = () => {
                 </div>
             </div>
             {/* insights */}
-            <div className='lg:px-24 px-10  mt-20'>
+            <div className=' w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10  mt-20'>
                 <div>
                     <h1 className='lg:text-7xl md:text-6xl text-4xl'>Insights</h1>
                 </div>

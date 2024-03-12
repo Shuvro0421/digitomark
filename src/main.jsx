@@ -10,6 +10,7 @@ import AboutUs from './components/Home/AboutUs/AboutUs';
 import Body from './components/Home/Body/Body';
 import SinglePerson from './components/Home/AboutUs/SinglePerson';
 import Portfolios from './components/Home/Portfolios/Portfolios';
+import SinglePortfolio from './components/Home/SinglePortfolio/SinglePortfolio';
 
 
 
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
       {
         path: "/portfolios",
         element: <Portfolios />
+      },
+      {
+        path: "/singlePortfolio/:id",
+        element: <SinglePortfolio />,
+        loader: () => fetch('/data.json')
       }
     ]
   },

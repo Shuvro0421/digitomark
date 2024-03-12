@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { IoFilter } from "react-icons/io5";
 import { IoIosArrowUp } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Portfolios = () => {
     const [datas, setData] = useState([]);
@@ -37,31 +38,33 @@ const Portfolios = () => {
     return (
         <div className="relative">
             {/* success of client */}
-            <div className="lg:px-24 px-10">
+            <div className=" w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10">
                 <h1 className='lg:text-7xl md:text-5xl text-3xl'>The success of<br /> our clients</h1>
                 <div className="my-20">
                     <div className='grid md:grid-cols-3 items-center justify-center grid-cols-1 m-auto  lg:gap-0 gap-5'>
                         {filteredData.map((singleData, index) => (
                             <div key={index} className={`${index % 3 === 1 ? 'md:mt-40' : ''}`}>
-                                <div className='flex hover:scale-105 ease-in-out duration-300 cursor-pointer flex-col items-start lg:ml-20 justify-start space-y-2'>
-                                    <div className='rounded-lg'>
-                                        <img className='lg:h-[500px] lg:w-[450px] h-full w-full rounded-lg' src={singleData?.imageLink} alt="" />
-                                    </div>
-                                    <div className='flex items-start flex-col'>
-                                        <div className='text-gray-500'>
-                                            <ul className='flex items-start ml-5 lg:gap-7 gap-5 flex-wrap'>
-                                                {singleData?.points.map((point, index) => (
-                                                    <li className='list-disc' key={index}>
-                                                        {point}
-                                                    </li>
-                                                ))}
-                                            </ul>
+                                <Link to={`/singlePortfolio/${singleData?.id}`}>
+                                    <div className='flex hover:scale-105 ease-in-out duration-300 cursor-pointer flex-col items-start lg:ml-20 justify-start space-y-2'>
+                                        <div className='rounded-xl'>
+                                            <img className='lg:h-[400px] lg:w-full h-full w-full rounded-xl' src={singleData?.imageLink} alt="" />
                                         </div>
-                                        <div>
-                                            <h1 className='md:text-2xl text-xl'>{singleData?.title}</h1>
+                                        <div className='flex items-start flex-col'>
+                                            <div className='text-gray-500'>
+                                                <ul className='flex items-start ml-5 lg:gap-7 gap-5 flex-wrap'>
+                                                    {singleData?.points.map((point, index) => (
+                                                        <li className='list-disc' key={index}>
+                                                            {point}
+                                                        </li>
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <h1 className='md:text-2xl text-xl'>{singleData?.title}</h1>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
                         ))}
                     </div>
@@ -71,7 +74,7 @@ const Portfolios = () => {
             {/* sign in for our newsletter */}
             <div>
                 <div className=" bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://dm-weteam.vercel.app/images/dynamic/cta.jpg')" }}>
-                    <div className="py-80 lg:px-24 px-10 ">
+                    <div className="py-80  w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10 ">
 
                         <h1 className='lg:text-7xl md:text-5xl text-3xl'>Sign up for our newsletter <br /> and never miss a thing!</h1>
                         <div className="mt-10 lg:w-1/2 relative">
@@ -92,7 +95,7 @@ const Portfolios = () => {
             {/* filter bar option */}
             <div>
 
-                <div className={`bg-gray-500 backdrop-blur-2xl bg-opacity-10 fixed ${showFilter ? 'scale-100' : 'scale-0'}  ease-in-out duration-300 overflow-auto bottom-20 left-1/4 lg:w-1/4 md:w-1/3 w-2/3 m-auto  right-0 rounded-lg mt-2 py-2 px-4 shadow-lg`}>
+                <div className={`bg-gray-500 backdrop-blur-2xl bg-opacity-10 fixed ${showFilter ? 'scale-100' : 'scale-0'}  ease-in-out duration-300 overflow-auto bottom-20 left-1/4 lg:w-1/4 md:w-1/3 w-2/3 m-auto  right-0 rounded-xl mt-2 py-2 px-4 shadow-lg`}>
                     <ul>
                         {uniqueCategories.map((category, index) => (
                             <li key={index} onClick={() => selectCategory(category)} className="cursor-pointer py-1 text-white">{category}</li>

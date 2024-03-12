@@ -2,7 +2,7 @@ import { CiFacebook, CiInstagram, CiLinkedin, CiTwitter, CiYoutube } from "react
 import { FiFacebook } from "react-icons/fi";
 const Footer = () => {
     return (
-        <div className="mb-10 lg:px-24 px-10 ">
+        <div className="mb-10  w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10 ">
             <div className="flex md:flex-row flex-col items-start justify-between">
                 <div>
                     <div>

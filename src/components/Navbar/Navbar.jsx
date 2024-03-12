@@ -46,7 +46,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="w-full">
-                        <ul className="space-y-2 mt-5 lg:bg-[#2626267A] lg:w-64  lg:ml-3 lg:mt-3 lg:rounded-lg lg:p-5">
+                        <ul className="space-y-2 mt-5 lg:bg-[#2626267A] lg:w-64  lg:ml-3 lg:mt-3 lg:rounded-xl lg:p-5">
                             <li className="">Services</li>
                             <div className="w-full border "></div>
                             <li  className="text-lg w-full">
@@ -83,7 +83,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </li>
-            {/* <li className={`lg:block hidden absolute text-xl  bg-black rounded-lg p-5 top-1/2 -right-64 ${openSubMenu ? '-translate-x-0' : '-translate-x-full opacity-0 duration-1000'} ease-out transition-transform duration-1000`}>
+            {/* <li className={`lg:block hidden absolute text-xl  bg-black rounded-xl p-5 top-1/2 -right-64 ${openSubMenu ? '-translate-x-0' : '-translate-x-full opacity-0 duration-1000'} ease-out transition-transform duration-1000`}>
                 {
                     openSubMenu && (
                         <div>
@@ -101,13 +101,13 @@ const Navbar = () => {
     };
 
     return (
-        <div className="lg:px-24 px-10 ">
+        <div className=" w-full lg:w-[1200px] 2xl:w-[1400px] mx-auto lg:px-24 px-10 ">
             <div className="lg:flex items-start hidden justify-between m-10">
                 <div className="flex gap-5">
-                    <Link to={'/'} className="bg-[#2626267A] w-24 rounded-lg backdrop-blur-lg h-12">
+                    <Link to={'/'} className="bg-[#2626267A] w-24 rounded-xl backdrop-blur-lg h-12">
                         <img className="w-full m-auto p-auto pt-1 pr-2" src="https://i.ibb.co/HhhbWMZ/snapedit-1709805727461.png" alt="" />
                     </Link>
-                    <div className={`bg-[#2626267A] w-[330px] pl-5 h-12 ${!open ? 'h-12' : 'h-[580px]'} ease-in-out duration-500 rounded-lg backdrop-blur-lg`} >
+                    <div className={`bg-[#2626267A] w-[330px] pl-5 h-12 ${!open ? 'h-12' : 'h-[580px]'} ease-in-out duration-500 rounded-xl backdrop-blur-lg`} >
                         <div className="flex items-start justify-between">
                             <div className="flex flex-col items-start py-3 justify-center">
                                 <div>
@@ -119,7 +119,7 @@ const Navbar = () => {
                                             <div className="w-full">
                                                 {links}
                                             </div>
-                                            <div className="bg-[#2626267A] text-lg  w-64 h-12  ml-3 mt-3  rounded-lg block ">
+                                            <div className="bg-[#2626267A] text-lg  w-64 h-12  ml-3 mt-3  rounded-xl block ">
                                                 <button className="flex gap-[140px] items-center  hover:gap-[150px] py-3 px-2 w-full  ease-in-out duration-500">Join Us <GoArrowRight /></button>
                                             </div>
                                         </div>
@@ -133,13 +133,13 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-[#2626267A] w-40 h-12 py-3 pl-5 rounded-lg backdrop-blur-lg">
+                <div className="bg-[#2626267A] w-40 h-12 py-3 pl-5 rounded-xl backdrop-blur-lg">
                     <button className="flex items-center gap-6 hover:gap-7 ease-in-out duration-500">Contact Us <GoArrowRight /></button>
                 </div>
             </div>
             {/* md sm */}
             <div className="lg:hidden block">
-                <div className="flex w-11/12 justify-between bg-[#2626267A] p-2 rounded-lg backdrop-blur-lg items-center m-auto mt-10">
+                <div className="flex w-11/12 justify-between bg-[#2626267A] p-2 rounded-xl backdrop-blur-lg items-center m-auto mt-10">
                     <Link to={'/'} className="">
                         <img className="w-24 h-12" src="https://i.ibb.co/HhhbWMZ/snapedit-1709805727461.png" alt="" />
                     </Link>
